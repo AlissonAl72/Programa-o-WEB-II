@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Teste dos Casos" time="76.937" tests="4" failures="0" errors="0">
+   <testsuite name="Teste dos Casos" tests="4" failures="0" errors="0" time="76.937" skipped="0" timestamp="07-05-2025T21:14:02" hostname="aliss - Alisson" id="Test Suites/Teste dos Casos">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\aliss\\OneDrive\\Faculdade\\5-Semesstre\\Programa\u00E7\u00E3o Web 2\\TWTodos\\Reports\\20250507_211350\\Teste dos Casos\\20250507_211350"/>
+         <property name="logFiles" value="C:\\Users\\aliss\\OneDrive\\Faculdade\\5-Semesstre\\Programa\u00E7\u00E3o Web 2\\TWTodos\\Reports\\20250507_211350\\Teste dos Casos\\20250507_211350\\console0.log, C:\\Users\\aliss\\OneDrive\\Faculdade\\5-Semesstre\\Programa\u00E7\u00E3o Web 2\\TWTodos\\Reports\\20250507_211350\\Teste dos Casos\\20250507_211350\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="aliss - Alisson"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.2.0.0"/>
+         <property name="browser" value="Chrome 136.0.7103.92"/>
+         <property name="userFullName" value="Alisson Almeida"/>
+         <property name="hostAddress" value="192.168.15.5"/>
+         <property name="sessionId" value="dd3d1ff29d57d97366a1a25ab333f7e7"/>
+         <property name="projectName" value="TWTodos"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Teste de Criação" time="16.304" classname="Test Cases/Teste de Criação" status="PASSED">
+         <system-out><![CDATA[07-05-2025T21:14:04 - [TEST_CASE][PASSED] - Test Cases/Teste de Criação: Test Cases/Teste de Criação
+
+07-05-2025T21:14:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+07-05-2025T21:14:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+07-05-2025T21:14:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+07-05-2025T21:14:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+07-05-2025T21:14:15 - [TEST_STEP][PASSED] - navigateToUrl("http://127.0.0.1:8000/"): Navigate to 'http://127.0.0.1:8000/' successfully
+
+07-05-2025T21:14:15 - [MESSAGE][PASSED] - Navigate to 'http://127.0.0.1:8000/' successfully
+
+07-05-2025T21:14:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_TWTodos - Lista de Tarefas/a_Nova tarefa")): Object: 'Object Repository/Page_TWTodos - Lista de Tarefas/a_Nova tarefa' is clicked on
+
+07-05-2025T21:14:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_TWTodos - Lista de Tarefas/a_Nova tarefa' is clicked on
+
+07-05-2025T21:14:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_TWTodos - Nova Tarefa/input__title"), "Arroz"): Text 'Arroz' is set on object 'Object Repository/Page_TWTodos - Nova Tarefa/input__title'
+
+07-05-2025T21:14:18 - [MESSAGE][PASSED] - Text 'Arroz' is set on object 'Object Repository/Page_TWTodos - Nova Tarefa/input__title'
+
+07-05-2025T21:14:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_TWTodos - Nova Tarefa/input__deadline"), "20/05/2025"): Text '20/05/2025' is set on object 'Object Repository/Page_TWTodos - Nova Tarefa/input__deadline'
+
+07-05-2025T21:14:19 - [MESSAGE][PASSED] - Text '20/05/2025' is set on object 'Object Repository/Page_TWTodos - Nova Tarefa/input__deadline'
+
+07-05-2025T21:14:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_TWTodos - Nova Tarefa/button_Salvar")): Object: 'Object Repository/Page_TWTodos - Nova Tarefa/button_Salvar' is clicked on
+
+07-05-2025T21:14:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_TWTodos - Nova Tarefa/button_Salvar' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Teste de Edição" time="11.06" classname="Test Cases/Teste de Edição" status="PASSED">
+         <system-out><![CDATA[07-05-2025T21:14:20 - [TEST_CASE][PASSED] - Test Cases/Teste de Edição: Test Cases/Teste de Edição
+
+07-05-2025T21:14:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+07-05-2025T21:14:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+07-05-2025T21:14:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+07-05-2025T21:14:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+07-05-2025T21:14:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+07-05-2025T21:14:26 - [TEST_STEP][PASSED] - navigateToUrl("http://127.0.0.1:8000/"): Navigate to 'http://127.0.0.1:8000/' successfully
+
+07-05-2025T21:14:26 - [MESSAGE][PASSED] - Navigate to 'http://127.0.0.1:8000/' successfully
+
+07-05-2025T21:14:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_TWTodos - Lista de Tarefas/a_Editar")): Object: 'Object Repository/Page_TWTodos - Lista de Tarefas/a_Editar' is clicked on
+
+07-05-2025T21:14:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_TWTodos - Lista de Tarefas/a_Editar' is clicked on
+
+07-05-2025T21:14:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_TWTodos - Editar de Tarefa/input__title"), "Arroz com Carne"): Text 'Arroz com Carne' is set on object 'Object Repository/Page_TWTodos - Editar de Tarefa/input__title'
+
+07-05-2025T21:14:29 - [MESSAGE][PASSED] - Text 'Arroz com Carne' is set on object 'Object Repository/Page_TWTodos - Editar de Tarefa/input__title'
+
+07-05-2025T21:14:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_TWTodos - Editar de Tarefa/input__deadline"), "20/05/2026"): Text '20/05/2026' is set on object 'Object Repository/Page_TWTodos - Editar de Tarefa/input__deadline'
+
+07-05-2025T21:14:30 - [MESSAGE][PASSED] - Text '20/05/2026' is set on object 'Object Repository/Page_TWTodos - Editar de Tarefa/input__deadline'
+
+07-05-2025T21:14:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_TWTodos - Editar de Tarefa/button_Salvar")): Object: 'Object Repository/Page_TWTodos - Editar de Tarefa/button_Salvar' is clicked on
+
+07-05-2025T21:14:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_TWTodos - Editar de Tarefa/button_Salvar' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Teste de Conclusão de tarefa" time="8.972" classname="Test Cases/Teste de Conclusão de tarefa" status="PASSED">
+         <system-out><![CDATA[07-05-2025T21:14:31 - [TEST_CASE][PASSED] - Test Cases/Teste de Conclusão de tarefa: Test Cases/Teste de Conclusão de tarefa
+
+07-05-2025T21:14:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+07-05-2025T21:14:32 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+07-05-2025T21:14:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+07-05-2025T21:14:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+07-05-2025T21:14:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+07-05-2025T21:14:38 - [TEST_STEP][PASSED] - navigateToUrl("http://127.0.0.1:8000/"): Navigate to 'http://127.0.0.1:8000/' successfully
+
+07-05-2025T21:14:39 - [MESSAGE][PASSED] - Navigate to 'http://127.0.0.1:8000/' successfully
+
+07-05-2025T21:14:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_TWTodos - Lista de Tarefas/a_Concluir")): Object: 'Object Repository/Page_TWTodos - Lista de Tarefas/a_Concluir' is clicked on
+
+07-05-2025T21:14:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_TWTodos - Lista de Tarefas/a_Concluir' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Teste de Exclusão" time="38.725" classname="Test Cases/Teste de Exclusão" status="PASSED">
+         <system-out><![CDATA[07-05-2025T21:14:40 - [TEST_CASE][PASSED] - Test Cases/Teste de Exclusão: Test Cases/Teste de Exclusão
+
+07-05-2025T21:14:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+07-05-2025T21:14:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+07-05-2025T21:14:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+07-05-2025T21:14:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+07-05-2025T21:14:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+07-05-2025T21:14:46 - [TEST_STEP][PASSED] - navigateToUrl("http://127.0.0.1:8000/"): Navigate to 'http://127.0.0.1:8000/' successfully
+
+07-05-2025T21:14:46 - [MESSAGE][PASSED] - Navigate to 'http://127.0.0.1:8000/' successfully
+
+07-05-2025T21:14:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_TWTodos - Lista de Tarefas/a_Exclur")): Object: 'Object Repository/Page_TWTodos - Lista de Tarefas/a_Exclur' is clicked on
+
+07-05-2025T21:15:18 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (//a[contains(text(),'Excluír')])[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+07-05-2025T21:15:18 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_TWTodos - Lista de Tarefas/a_Exclur'. Try using Self-healing.
+
+07-05-2025T21:15:18 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_TWTodos - Lista de Tarefas/a_Exclur' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Nova tarefa'])[1]/preceding::a[1]'.
+
+07-05-2025T21:15:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_TWTodos - Lista de Tarefas/a_Exclur' is clicked on
+
+07-05-2025T21:15:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_TWTodos - Exclur Tarefa/button_Exclur")): Object: 'Object Repository/Page_TWTodos - Exclur Tarefa/button_Exclur' is clicked on
+
+07-05-2025T21:15:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_TWTodos - Exclur Tarefa/button_Exclur' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[07-05-2025T21:14:02 - [TEST_SUITE][PASSED] - Teste dos Casos: Test Cases/Teste de Exclusão]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

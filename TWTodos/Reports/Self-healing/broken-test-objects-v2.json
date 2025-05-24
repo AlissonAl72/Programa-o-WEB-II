@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_TWTodos - Lista de Tarefas/a_Exclur",
+      "brokenLocator": "(//a[contains(text(),\u0027Excluír\u0027)])[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Nova tarefa\u0027])[1]/preceding::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_TWTodos - Lista de Tarefas/a_Exclur_neighbor.png"
+    }
+  ]
+}

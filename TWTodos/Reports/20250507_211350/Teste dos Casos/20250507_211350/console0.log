@@ -1,0 +1,96 @@
+2025-05-07 21:14:02.260 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Teste dos Casos
+2025-05-07 21:14:02.596 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Alisson Almeida
+2025-05-07 21:14:02.602 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = TWTodos
+2025-05-07 21:14:02.603 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = aliss - Alisson
+2025-05-07 21:14:02.604 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-05-07 21:14:02.604 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.15.5
+2025-05-07 21:14:02.606 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.2.0.0
+2025-05-07 21:14:04.327 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-05-07 21:14:04.327 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Teste de Criação
+2025-05-07 21:14:06.090 DEBUG testcase.Teste de Criação                - 1: openBrowser("")
+2025-05-07 21:14:07.304 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-05-07 21:14:07.646 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+mai. 07, 2025 9:14:12 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+ADVERTÊNCIA: Unable to find CDP implementation matching 136
+mai. 07, 2025 9:14:12 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+ADVERTÊNCIA: Unable to find version of CDP to use for 136.0.7103.92. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-05-07 21:14:14.956 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 88421cd76893a678354c87a41056ad01
+2025-05-07 21:14:14.961 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 136.0.7103.92
+2025-05-07 21:14:14.963 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-05-07 21:14:14.964 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-05-07 21:14:14.988 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-05-07 21:14:15.172 DEBUG testcase.Teste de Criação                - 2: navigateToUrl("http://127.0.0.1:8000/")
+2025-05-07 21:14:15.547 DEBUG testcase.Teste de Criação                - 3: click(findTestObject("Object Repository/Page_TWTodos - Lista de Tarefas/a_Nova tarefa"))
+2025-05-07 21:14:17.502 DEBUG testcase.Teste de Criação                - 4: setText(findTestObject("Object Repository/Page_TWTodos - Nova Tarefa/input__title"), "Arroz")
+2025-05-07 21:14:18.460 DEBUG testcase.Teste de Criação                - 5: setText(findTestObject("Object Repository/Page_TWTodos - Nova Tarefa/input__deadline"), "20/05/2025")
+2025-05-07 21:14:19.464 DEBUG testcase.Teste de Criação                - 6: click(findTestObject("Object Repository/Page_TWTodos - Nova Tarefa/button_Salvar"))
+2025-05-07 21:14:20.625 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Teste de Criação
+2025-05-07 21:14:20.681 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-05-07 21:14:20.682 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Teste de Edição
+2025-05-07 21:14:21.248 DEBUG testcase.Teste de Edição                 - 1: openBrowser("")
+2025-05-07 21:14:21.273 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-05-07 21:14:22.560 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-05-07 21:14:22.565 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+mai. 07, 2025 9:14:25 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+ADVERTÊNCIA: Unable to find CDP implementation matching 136
+mai. 07, 2025 9:14:25 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+ADVERTÊNCIA: Unable to find version of CDP to use for 136.0.7103.92. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-05-07 21:14:26.090 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = d58f7e44c55d75b5f3324e4478cfee62
+2025-05-07 21:14:26.093 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 136.0.7103.92
+2025-05-07 21:14:26.094 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-05-07 21:14:26.094 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-05-07 21:14:26.095 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-05-07 21:14:26.188 DEBUG testcase.Teste de Edição                 - 2: navigateToUrl("http://127.0.0.1:8000/")
+2025-05-07 21:14:26.409 DEBUG testcase.Teste de Edição                 - 3: click(findTestObject("Object Repository/Page_TWTodos - Lista de Tarefas/a_Editar"))
+2025-05-07 21:14:28.637 DEBUG testcase.Teste de Edição                 - 4: setText(findTestObject("Object Repository/Page_TWTodos - Editar de Tarefa/input__title"), "Arroz com Carne")
+2025-05-07 21:14:29.611 DEBUG testcase.Teste de Edição                 - 5: setText(findTestObject("Object Repository/Page_TWTodos - Editar de Tarefa/input__deadline"), "20/05/2026")
+2025-05-07 21:14:30.795 DEBUG testcase.Teste de Edição                 - 6: click(findTestObject("Object Repository/Page_TWTodos - Editar de Tarefa/button_Salvar"))
+2025-05-07 21:14:31.743 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Teste de Edição
+2025-05-07 21:14:31.762 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-05-07 21:14:31.763 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Teste de Conclusão de tarefa
+2025-05-07 21:14:32.243 DEBUG testcase.Teste de Conclusão de tarefa    - 1: openBrowser("")
+2025-05-07 21:14:32.280 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-05-07 21:14:35.468 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-05-07 21:14:35.472 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+mai. 07, 2025 9:14:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+ADVERTÊNCIA: Unable to find CDP implementation matching 136
+mai. 07, 2025 9:14:38 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+ADVERTÊNCIA: Unable to find version of CDP to use for 136.0.7103.92. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-05-07 21:14:38.374 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 7aa80f67770010e8648a2c82c429e47c
+2025-05-07 21:14:38.375 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 136.0.7103.92
+2025-05-07 21:14:38.375 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-05-07 21:14:38.376 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-05-07 21:14:38.378 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-05-07 21:14:38.442 DEBUG testcase.Teste de Conclusão de tarefa    - 2: navigateToUrl("http://127.0.0.1:8000/")
+2025-05-07 21:14:39.340 DEBUG testcase.Teste de Conclusão de tarefa    - 3: click(findTestObject("Object Repository/Page_TWTodos - Lista de Tarefas/a_Concluir"))
+2025-05-07 21:14:40.739 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Teste de Conclusão de tarefa
+2025-05-07 21:14:40.758 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-05-07 21:14:40.758 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Teste de Exclusão
+2025-05-07 21:14:41.257 DEBUG testcase.Teste de Exclusão               - 1: openBrowser("")
+2025-05-07 21:14:41.312 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-05-07 21:14:42.547 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-05-07 21:14:42.557 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+mai. 07, 2025 9:14:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+ADVERTÊNCIA: Unable to find CDP implementation matching 136
+mai. 07, 2025 9:14:45 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+ADVERTÊNCIA: Unable to find version of CDP to use for 136.0.7103.92. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.28.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+2025-05-07 21:14:46.003 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = dd3d1ff29d57d97366a1a25ab333f7e7
+2025-05-07 21:14:46.004 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 136.0.7103.92
+2025-05-07 21:14:46.005 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-05-07 21:14:46.007 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-05-07 21:14:46.008 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-05-07 21:14:46.072 DEBUG testcase.Teste de Exclusão               - 2: navigateToUrl("http://127.0.0.1:8000/")
+2025-05-07 21:14:46.946 DEBUG testcase.Teste de Exclusão               - 3: click(findTestObject("Object Repository/Page_TWTodos - Lista de Tarefas/a_Exclur"))
+2025-05-07 21:15:18.093 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: (//a[contains(text(),'Excluír')])[2]'. Please recheck the objects properties to make sure the desired element is located. 
+2025-05-07 21:15:18.095 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_TWTodos - Lista de Tarefas/a_Exclur'. Try using Self-healing.
+2025-05-07 21:15:18.417 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - [SELF-HEALING] The current locator of test object 'Object Repository/Page_TWTodos - Lista de Tarefas/a_Exclur' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Nova tarefa'])[1]/preceding::a[1]'.
+2025-05-07 21:15:18.767 DEBUG testcase.Teste de Exclusão               - 4: click(findTestObject("Object Repository/Page_TWTodos - Exclur Tarefa/button_Exclur"))
+2025-05-07 21:15:19.483 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Teste de Exclusão
+2025-05-07 21:15:19.497 INFO  c.k.katalon.core.main.TestCaseExecutor   - 
+2025-05-07 21:15:19.498 INFO  c.k.katalon.core.main.TestCaseExecutor   - ===================== Self-healing Report ====================
+2025-05-07 21:15:19.502 INFO  c.k.katalon.core.main.TestCaseExecutor   - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+2025-05-07 21:15:19.504 INFO  c.k.katalon.core.main.TestCaseExecutor   - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/maintain-tests/self-healing-tests-in-katalon-studio
+2025-05-07 21:15:19.506 INFO  c.k.katalon.core.main.TestCaseExecutor   - ==============================================================
+2025-05-07 21:15:20.314 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-05-07 21:15:20.314 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Teste dos Casos
+2025-05-07 21:15:20.314 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

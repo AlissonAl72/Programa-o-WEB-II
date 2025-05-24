@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Teste dos Casos,Chrome 136.0.7103.92,,,07-05-2025 21:11:53,07-05-2025 21:12:45,"51,850s",PASSED
+,,,,,,,
+Test Cases/Teste de Criação,Chrome 136.0.7103.92,,,07-05-2025 21:11:54,07-05-2025 21:12:02,"7,941s",PASSED
+"openBrowser("""")",Chrome 136.0.7103.92,,,07-05-2025 21:11:54,07-05-2025 21:11:59,"4,160s",PASSED
+"navigateToUrl(""http://127.0.0.1:8000/"")",Chrome 136.0.7103.92,,,07-05-2025 21:11:59,07-05-2025 21:11:59,"0,183s",PASSED
+"click(findTestObject(""Object Repository/Page_TWTodos - Lista de Tarefas/a_Nova tarefa""))",Chrome 136.0.7103.92,,,07-05-2025 21:11:59,07-05-2025 21:12:00,"0,967s",PASSED
+"setText(findTestObject(""Object Repository/Page_TWTodos - Nova Tarefa/input__title""), ""Arroz"")",Chrome 136.0.7103.92,,,07-05-2025 21:12:00,07-05-2025 21:12:01,"0,796s",PASSED
+"setText(findTestObject(""Object Repository/Page_TWTodos - Nova Tarefa/input__deadline""), ""20/05/2025"")",Chrome 136.0.7103.92,,,07-05-2025 21:12:01,07-05-2025 21:12:01,"0,654s",PASSED
+"click(findTestObject(""Object Repository/Page_TWTodos - Nova Tarefa/button_Salvar""))",Chrome 136.0.7103.92,,,07-05-2025 21:12:01,07-05-2025 21:12:02,"0,467s",PASSED
+,,,,,,,
+Test Cases/Teste de Edição,Chrome 136.0.7103.92,,,07-05-2025 21:12:02,07-05-2025 21:12:07,"5,151s",PASSED
+"openBrowser("""")",Chrome 136.0.7103.92,,,07-05-2025 21:12:02,07-05-2025 21:12:04,"2,131s",PASSED
+"navigateToUrl(""http://127.0.0.1:8000/"")",Chrome 136.0.7103.92,,,07-05-2025 21:12:04,07-05-2025 21:12:04,"0,102s",PASSED
+"click(findTestObject(""Object Repository/Page_TWTodos - Lista de Tarefas/a_Editar""))",Chrome 136.0.7103.92,,,07-05-2025 21:12:04,07-05-2025 21:12:05,"0,912s",PASSED
+"setText(findTestObject(""Object Repository/Page_TWTodos - Editar de Tarefa/input__title""), ""Arroz com Carne"")",Chrome 136.0.7103.92,,,07-05-2025 21:12:05,07-05-2025 21:12:06,"0,867s",PASSED
+"setText(findTestObject(""Object Repository/Page_TWTodos - Editar de Tarefa/input__deadline""), ""20/05/2026"")",Chrome 136.0.7103.92,,,07-05-2025 21:12:06,07-05-2025 21:12:06,"0,623s",PASSED
+"click(findTestObject(""Object Repository/Page_TWTodos - Editar de Tarefa/button_Salvar""))",Chrome 136.0.7103.92,,,07-05-2025 21:12:06,07-05-2025 21:12:07,"0,369s",PASSED
+,,,,,,,
+Test Cases/Teste de Conclusão de tarefa,Chrome 136.0.7103.92,,,07-05-2025 21:12:07,07-05-2025 21:12:10,"3,088s",PASSED
+"openBrowser("""")",Chrome 136.0.7103.92,,,07-05-2025 21:12:07,07-05-2025 21:12:09,"1,952s",PASSED
+"navigateToUrl(""http://127.0.0.1:8000/"")",Chrome 136.0.7103.92,,,07-05-2025 21:12:09,07-05-2025 21:12:09,"0,364s",PASSED
+"click(findTestObject(""Object Repository/Page_TWTodos - Lista de Tarefas/a_Concluir""))",Chrome 136.0.7103.92,,,07-05-2025 21:12:09,07-05-2025 21:12:10,"0,608s",PASSED
+,,,,,,,
+Test Cases/Teste de Exclusão,Chrome 136.0.7103.92,,,07-05-2025 21:12:10,07-05-2025 21:12:44,"34,273s",PASSED
+"openBrowser("""")",Chrome 136.0.7103.92,,,07-05-2025 21:12:10,07-05-2025 21:12:12,"1,729s",PASSED
+"navigateToUrl(""http://127.0.0.1:8000/"")",Chrome 136.0.7103.92,,,07-05-2025 21:12:12,07-05-2025 21:12:12,"0,298s",PASSED
+"click(findTestObject(""Object Repository/Page_TWTodos - Lista de Tarefas/a_Exclur""))",Chrome 136.0.7103.92,,,07-05-2025 21:12:12,07-05-2025 21:12:44,"31,579s",PASSED
+"click(findTestObject(""Object Repository/Page_TWTodos - Exclur Tarefa/button_Exclur""))",Chrome 136.0.7103.92,,,07-05-2025 21:12:44,07-05-2025 21:12:44,"0,570s",PASSED
